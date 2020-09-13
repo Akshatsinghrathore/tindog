@@ -1,0 +1,244 @@
+/********** selectors*******/
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+button{   
+    
+    size: 3rem;
+    line-height: 1.5;
+}
+
+
+h2{
+   font-family: "Montserrat", sans-serif;
+font-weight: 700;
+font-size: 260.9%;
+line-height: 1.5;
+}
+
+h3{
+font-family: 'Fira Sans', sans-serif;
+font-weight: 700;
+}
+
+
+/***********class************/
+.lol{
+    position: relative ;
+}
+  
+.container-fluid{
+    padding: 3% 10% 10% 10%;
+}
+
+
+
+
+
+
+
+
+/*************ID***********/
+#title{
+    background-color: #ff4c68;
+    color: white;
+   
+}
+
+
+#yo{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900
+    
+}
+
+/*****navigation bar*******/
+
+.navbar{
+    padding-bottom:3.5rem;
+    padding: left 0; ;
+}
+
+
+
+
+
+.navbar-brand  {
+    font-size:1.900rem ;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.nav-item{
+    padding:0 18px;
+}
+
+.nav-link{
+    font-size: 1.21rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lol{
+    padding-left: 0;
+    text-align: left;
+
+}
+
+/* download button */
+.download{
+margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.phone{
+ width: 53%;
+ transform:rotate(25deg);
+
+  position: absolute;
+  left: 20%;
+}
+
+/* feature section */
+
+#features{
+    padding: 4% 15% 7% 15%;
+    background-color: white ;
+    z-index: 1 ;
+     position: relative;
+}
+
+.box{
+   text-align: center;
+   padding: 5%;
+}
+
+.icon{
+    color: #ef8172;
+    padding: 1rem;
+    
+}
+
+.icon:hover{
+    color: red;
+}
+
+.heart-color:hover{
+    color: red;
+}
+
+/* Testimonials */
+
+.slidding-window{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: white
+}
+
+
+
+.photo-of-dog{
+    border-radius: 100%;
+    width: 30%;
+    margin-top: 20px;
+}
+
+/* press */
+
+#press{
+    background-color:  #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+
+.press-logo{
+    width : 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+ padding: 0.44% 10%;   
+}
+
+/* pricing */
+
+#it-is-not-working{
+    text-align: center;
+    padding: 100px;
+}
+
+.pricing-col{
+    padding: 3% 3%;
+}
+
+
+/* media */
+
+@media(max-width:1028px){
+  .phone{
+   position:static;
+
+   transform:rotate(0deg)
+   
+  }
+
+  #title{
+      text-align: center;
+  }
+}
+@media(max-width:710){
+    .mobile-friendly{
+        padding: 100%;
+    }
+
+    .photo-of-dog{
+        
+    }
+}
+
+
+/* footer */
+
+
+#cta{
+    background-color: #ff4c68;
+     font-family: 'Montserrat', sans-serif;
+     text-align: center;
+     color: white;
+     line-height: 1.5;
+}
+
+#coco{
+    padding: 7% 21% 4% 21%;
+    text-align: center;
+    size: 10rem;
+    color: white
+    
+}
+
+.easy{
+    margin: 0% 3% 5% 0;
+}
+
+#footer{
+    background-color: white;
+    text-align: center;
+    margin-bottom: 0;
+padding: 0 17% 0 17%;
+
+    
+}
+
+
+.social-icon {
+    margin: 20px 10px;
+    padding: 7% 0 3% 0;
+}
